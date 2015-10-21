@@ -1,4 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+.ac-element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .ac-overlay{
     box-sizing: border-box;
     height:100%;
@@ -15,8 +20,8 @@
 }
 .ac-container {
     box-sizing: border-box;
-    font-family: 'Bree Serif', serif; 
-    width: 360px;
+    font-family: 'Roboto', sans-serif; 
+    width: 600px;
     position: fixed;
     padding: 20px 20px 30px 20px;
     background: #fff;
@@ -25,7 +30,7 @@
     text-align:center;
     border-radius: 4px;
     box-shadow:0px 0px 5px #000;
-    font-weight:normal;
+    font-weight:400;
 }
 .ac-container h2 {
     box-sizing: border-box;
@@ -36,7 +41,7 @@
 }
 .ac-container h3 {
     box-sizing: border-box;
-    color:#649D09;
+    color:#03ac6c;
     margin-bottom:5px;
     margin-top:15px;
     font-size:26px;
@@ -99,14 +104,14 @@
     font-size: 12px;
     line-height: 1.5;
     width: 84px;
-    background:#8EB908;
+    background:#03ac6c;
     color:#fff; 
-    text-shadow:1px 1px 0 #84A51D;
+    text-shadow:1px 1px 0 #03ac6c;
 
 }
 .ac-container button:hover{
     box-sizing: border-box;
-    background:#82A711;
+    background:#03ac6c;
 }
 .ac-container .errors  {
     box-sizing: border-box;
